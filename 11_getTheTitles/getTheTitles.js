@@ -1,5 +1,7 @@
-const getTheTitles = function() {
+const getTheTitles = function(ary) {
+    let titles = ary.map(book => book.title)
 
+    return titles;
 };
 
 // Do not edit below this line
